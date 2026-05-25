@@ -16,7 +16,7 @@ client.connect()
   .catch(err => console.error("DB Connection Error", err));
 
 app.get("/", (req, res) => {
-  res.send("DevOps Assignment Running");
+  res.send("DevOps Assignment");
 });
 
 app.get("/health", (req, res) => {
